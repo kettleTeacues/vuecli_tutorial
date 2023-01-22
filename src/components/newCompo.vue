@@ -1,5 +1,5 @@
 <template>
-    <div class="hello">
+    <div>
         <h1>{{ msg }}</h1>
         <h2 v-show="showText">{{ text }}</h2>
     </div>
@@ -8,7 +8,7 @@
 <script>
 
 export default {
-    name: 'HelloWorld',
+    name: 'newCompo',
     
     data(){
         return {
